@@ -4,6 +4,12 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/js-game-rendering-benchmark/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    a {
+      color: #9c64ff;
+      border-color: #9c64ff;
+    }
+  </style>
   <link rel="stylesheet" href="/js-game-rendering-benchmark/style.css" />
   <title> Two.js — JS Game Rendering Benchmark </title>
   <script type="module" crossorigin src="/js-game-rendering-benchmark/assets/two-09878af0.js"></script>
@@ -29,13 +35,15 @@
     <main>
       <div class="container">
         <div class="count-container">
-          Count:
-          <a href="?count=500">500</a>
-          <a href="?count=1000">1000</a>
-          <a href="?count=2500">2500</a>
-          <a href="?count=5000">5000</a>
-          <a href="?count=10000">10000</a>
-          <a href="?count=custom">CUSTOM</a>
+          <span> COUNT </span>
+          <div>
+            <a href="?count=500"><span>500</span></a>
+            <a href="?count=1000"><span>1000</span></a>
+            <a href="?count=2500"><span>2500</span></a>
+            <a href="?count=5000"><span>5000</span></a>
+            <a href="?count=10000"><span>10000</span></a>
+            <a href="?count=custom"><span>CUSTOM</span></a>
+          </div>
         </div>
         <div class="fps-container"></div>
       </div>
