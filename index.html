@@ -16,8 +16,8 @@
   <script type="text/javascript">
     window.location.href = './canvas.html';
   </script>
-  <script type="module" crossorigin src="/js-game-rendering-benchmark/assets/engine-97623bf5.js"></script>
-  <script type="module" crossorigin src="/js-game-rendering-benchmark/assets/canvas-e0abe3bd.js"></script>
+  <script type="module" crossorigin src="/js-game-rendering-benchmark/assets/engine-516a9876.js"></script>
+  <script type="module" crossorigin src="/js-game-rendering-benchmark/assets/canvas-2d3de0e1.js"></script>
 </head>
 
   <body>
@@ -46,10 +46,15 @@
             <a href="?count=2500"><span>2500</span></a>
             <a href="?count=5000"><span>5000</span></a>
             <a href="?count=10000"><span>10000</span></a>
-            <a href="?count=custom"><span>CUSTOM</span></a>
+            <a><span>CUSTOM</span></a>
           </div>
         </div>
         <div class="fps-container"></div>
+        <div class="options-container">
+          <a href="?type=stroke"><span>Stroke</span></a>
+          <a href="?type=fill"><span>Fill</span></a>
+          <a href="?type=sprite"><span>Sprite</span></a>
+        </div>
       </div>
       <canvas id="canvas" class="canvas"></canvas>
     </main>
